@@ -74,7 +74,7 @@ const VerticalFeatures = () => {
               description="This is a game I created that is similar to the classic arcade game Frogger. The player controls a frog that must cross a busy road and a river to reach the other side of the screen. The player must avoid cars and logs that move across the screen. The player earns points for successfully crossing the road and river, and loses a life if the frog is hit by a car or falls in the river."
               image="/assets/images/froggerscreen.png"
               imageAlt="Third feature alt text"
-              link="https://diary-ai.vercel.app/"
+              link="https://frogger-gray.vercel.app/"
               github="https://github.com/Curtoista/Frogger"
             />
             <CollapsibleFeature
@@ -82,7 +82,7 @@ const VerticalFeatures = () => {
               description="This is a game I created that tests the player's memory. The game displays a grid of cards face down. The player must flip over two cards at a time to find matching pairs. If the cards do not match, they are flipped back over. The player must remember the location of the cards to find all the matching pairs and win the game."
               image="/assets/images/Memory-Game-Screenshot.png"
               imageAlt="First feature alt text"
-              link="https://chrome.google.com/webstore/detail/actuarial-present-value/dkpjafmjabacmgmjkogfmepbbkghenll"
+              link="https://memory-game-rho-opal.vercel.app/"
               github="https://github.com/Curtoista/MemoryGame"
             />
           </div>
