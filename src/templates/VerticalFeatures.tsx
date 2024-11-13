@@ -62,6 +62,14 @@ const VerticalFeatures = () => {
           <div className="space-y-8">
             {' '}
             <CollapsibleFeature
+              title="Grooveshare Spotify App"
+              description="This an app I created using React that uses the Spotify API to create and save playlists"
+              image="/assets/images/grooveshare.png"
+              imageAlt="Third feature alt text"
+              link="https://grooveshare.vercel.app/"
+              github="https://github.com/Curtoista/grooveshare"
+            />
+            <CollapsibleFeature
               title="Hockey Blog"
               description="This is a website I created for my Skillify web development course. It is a hockey blog that documents the 2023 NHL season. Contents include the results of the regular season and NHL Stanley Cup Playoffs, season stat leaders, and NHL award results."
               image="/assets/images/file.png"
