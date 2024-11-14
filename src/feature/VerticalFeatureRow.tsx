@@ -6,6 +6,7 @@ import background1 from 'public/assets/images/file.png'
 import background3 from 'public/assets/images/Memory-Game-Screenshot.png';
 import background2 from 'public/assets/images/Memory-Game-Screenshot.png';
 import background4 from 'public/assets/images/froggerscreen.png';
+import background5 from 'public/assets/images/grooveshare.png';
 import React, { useEffect, useState } from 'react';
 
 type IVerticalFeatureRowProps = {
@@ -32,6 +33,8 @@ const VerticalFeatureRow: React.FC<IVerticalFeatureRowProps> = (props) => {
       setBackgroundImage(background3);
     } else if (props.image === '/assets/images/froggerscreen.png') {
       setBackgroundImage(background4);
+      } else if (props.image === '/assets/images/grooveshare.png') {
+      setBackgroundImage(background5);
     }
   }, [props.image]);
 
