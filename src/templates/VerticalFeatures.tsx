@@ -6,6 +6,18 @@ import { useInView } from 'react-intersection-observer';
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      div: any;
+      // Add other elements you're using here
+      motion: any; // For framer-motion
+      VerticalFeatureRow: any;
+      Section: any;
+    }
+  }
+}
+
 // Define a TypeScript interface for the props
 interface CollapsibleFeatureProps {
   title: string;
@@ -64,7 +76,7 @@ const VerticalFeatures = () => {
             <CollapsibleFeature
               title="Grooveshare Spotify App"
               description="This an app I created using React that uses the Spotify API to create and save playlists"
-              image="/assets/images/grooveshare.png"
+              image="/assets/images/grooveshare2.png"
               imageAlt="Third feature alt text"
               link="https://grooveshare.vercel.app/"
               github="https://github.com/Curtoista/grooveshare"

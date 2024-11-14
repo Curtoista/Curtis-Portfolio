@@ -59,7 +59,7 @@ const VerticalFeatureRow: React.FC<IVerticalFeatureRowProps> = (props) => {
       <div className="size-full p-4 transition-transform hover:scale-105  hover:shadow-lg sm:w-1/2">
         {backgroundImage && (
           <Link href={props.link}>
-            <Image height={'1200'} src={backgroundImage} alt={props.imageAlt} />
+            <Image height={'1200'} src={backgroundImage} alt={props.imageAlt}  />
           </Link>
         )}
       </div>
