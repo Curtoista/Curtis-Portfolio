@@ -76,7 +76,7 @@ const VerticalFeatures = () => {
             <CollapsibleFeature
               title="Grooveshare Spotify App"
               description="This an app I created using React that uses the Spotify API to create and save playlists"
-              image="/assets/images/grooveshare2.png"
+              image="/assets/images/grooveshare.png"
               imageAlt="Third feature alt text"
               link="https://grooveshare.vercel.app/"
               github="https://github.com/Curtoista/grooveshare"

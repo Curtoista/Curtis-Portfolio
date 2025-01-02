@@ -50,12 +50,12 @@ const Hero = () => {
             <HeroOneButton
               title={
                 <>
-                  {'Web Developer in Training\n'}
+                  {'Junior Web Developer\n'}
                   <br />
                   <span className="text-primary-500">
                     at{' '}
                     <a className=" hover:underline" href="https://skillify.ca/">
-                   Skillify
+                   Skillify Coding Academy
                     </a>
                   </span>
                 </>
