@@ -9,14 +9,13 @@ import { Section } from '../layout/Section';
 declare global {
   namespace JSX {
     interface IntrinsicElements {
-      div: any;
-      // Add other elements you're using here
-      motion: any; // For framer-motion
-      VerticalFeatureRow: any;
-      Section: any;
+      motion: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>; // For framer-motion
+      VerticalFeatureRow: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+      Section: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
     }
   }
 }
+
 
 // Define a TypeScript interface for the props
 interface CollapsibleFeatureProps {
