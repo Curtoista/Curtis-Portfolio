@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+
 const FooterLinks = () => (
   <div className="grid grid-rows-1">
     <Link href="/">

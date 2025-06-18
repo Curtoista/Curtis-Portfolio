@@ -23,14 +23,14 @@ const Hero = () => {
       controls.start({ opacity: 1, transition: { duration: 1 } });
     }
   }, [inView, controls]);
+
   return (
     <motion.div ref={ref} initial={{ opacity: 0 }} animate={controls}>
-      <div className="h-screen md:h-full flex flex-col bg-[url('https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA')]">
+      <div className="min-h-screen flex flex-col bg-[url('https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA')] bg-cover bg-center">
         <Background color={''}>
-          <Section yPadding="md:py-0">
+          <Section yPadding="md:py-44 pt-20 pb-32">
             <NavbarTwoColumns
               logo={<Logo xl />}
-              // eslint-disable-next-line react/no-children-prop
               children={
                 <>
                   <li>
@@ -43,10 +43,10 @@ const Hero = () => {
                   </li>
                 </>
               }
-            ></NavbarTwoColumns>
+            />
           </Section>
 
-          <Section yPadding="py-44">
+          <Section yPadding="md:py-44 pt-20 pb-32">
             <HeroOneButton
               title={
                 <>
@@ -54,8 +54,8 @@ const Hero = () => {
                   <br />
                   <span className="text-primary-500">
                     at{' '}
-                    <a className=" hover:underline" href="https://skillify.ca/">
-                   Skillify Coding Academy
+                    <a className="hover:underline" href="https://skillify.ca/">
+                      Skillify Coding Academy
                     </a>
                   </span>
                 </>
