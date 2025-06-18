@@ -47,7 +47,7 @@ const VerticalFeatureRow: React.FC<IVerticalFeatureRowProps> = (props) => {
       <div className="w-full px-8 text-center sm:w-1/2">
         <a className="hover:text-blue-500 hover:underline " href={props.link}>
           {' '}
-          <h3 className="text-4xl font-semibold text-orange-900 hover:text-blue-500 hover:underline">
+          <h3 className="text-4xl font-semibold text-black-900 hover:text-blue-500 hover:underline">
             {props.title}
           </h3>
         </a>
