@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import { Link as ScrollLink } from 'react-scroll';
 
 import { Background } from '../background/Background';
-import { Button } from '../button/Button';
+// import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
