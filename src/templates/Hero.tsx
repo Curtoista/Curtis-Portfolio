@@ -50,12 +50,12 @@ const Hero = () => {
             <HeroOneButton
               title={
                 <>
-                  {'Junior Web Developer\n'}
+                  {'Web Developer\n'}
                   <br />
                   <span className="text-primary-500">
                     at{' '}
                     <a className="hover:underline" href="https://skillify.ca/">
-                      Skillify Coding Academy
+                      Skillify
                     </a>
                   </span>
                 </>
@@ -68,7 +68,9 @@ const Hero = () => {
                   duration={500}
                   offset={-30}
                 >
-                  <Button xl>See My Portfolio</Button>
+                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+  See My Portfolio
+</button>
                 </ScrollLink>
               }
             />
