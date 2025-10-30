@@ -85,7 +85,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
       {/* Resume */}
       {/* Resume */}
       <a
-        href="https://docs.google.com/document/d/1fSilT8mQOwU8z9uoKW-vbg1W2v639vad/edit"
+        href="https://docs.google.com/document/d/1-T9do6c96S7yLi9-laS0CZxXodar7uei/edit?usp=sharing&ouid=104843648699716960707&rtpof=true&sd=true"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Resume"
