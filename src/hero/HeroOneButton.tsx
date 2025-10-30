@@ -58,7 +58,7 @@ const HeroOneButton = (props: IHeroOneButtonProps) => (
             </a>
 
             <a
-              href="https://docs.google.com/document/d/1fSilT8mQOwU8z9uoKW-vbg1W2v639vad/edit#heading=h.gjdgxs"
+              href="https://docs.google.com/document/d/1-T9do6c96S7yLi9-laS0CZxXodar7uei/edit?usp=drivesdk&ouid=104843648699716960707&rtpof=true&sd=true"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="View Resume"
